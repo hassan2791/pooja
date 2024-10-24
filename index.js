@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
         <title>My Node App</title>
       </head>
       <body>
-        <h1>Hello, welcome to my Node.js app!</h1>
+        <h1>Hello, welcome to Pooja app!</h1>
         <p>This is a simple one-page app deployed using Heroku.</p>
       </body>
     </html>
