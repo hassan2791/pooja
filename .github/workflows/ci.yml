@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetch the full history, unshallow the clone
+          fetch-depth: 0 # Fetch the  full history, unshallow the clone
 
       - name: Set up Node.js (if your app is Node.js-based)
         uses: actions/setup-node@v4
