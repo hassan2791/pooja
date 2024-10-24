@@ -1,7 +1,7 @@
 name: Deploy to Heroku
 
 on:
-  merage:
+  merge:
     branches:
       - main
 
