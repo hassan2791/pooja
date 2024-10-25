@@ -1,12 +1,12 @@
 name: Deploy to Heroku
 
 on:
-  merge:
+  push:
     branches:
       - main
 
 jobs:
-  deploy:
+  merge-job:
     runs-on: ubuntu-latest
     
     steps:
