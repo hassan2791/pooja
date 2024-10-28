@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  merge-job:
     runs-on: ubuntu-latest
     
     steps:
@@ -27,6 +27,11 @@ jobs:
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
+<<<<<<< HEAD
           git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/pooja2.git
           git push heroku main
+=======
+          git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/pooja.git
+          git push heroku main --force
+>>>>>>> 6135bc7133bd9b5b5ac9653a8cd174430bfc1943
          
