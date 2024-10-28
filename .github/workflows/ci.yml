@@ -26,7 +26,8 @@ jobs:
       - name: Deploy to Heroku
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: | 
-          git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/pooja2.git
+        run: |
+          git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/pooja.git
           git push heroku main --force
  
+         
